@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/BelajarKotlinDasar2/app/src/main/res/layout/activity_hello_world.xml" value="0.20416666666666666" />
         <entry key="..\:/BelajarKotlinDasar2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/BelajarKotlinDasar2/app/src/main/res/layout/content_scrolling.xml" value="0.33" />
+        <entry key="..\:/BelajarKotlinDasar2/app/src/main/res/layout/fragment_hello_world.xml" value="0.2" />
       </map>
     </option>
   </component>

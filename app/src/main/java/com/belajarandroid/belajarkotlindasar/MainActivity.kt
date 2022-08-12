@@ -13,13 +13,30 @@ class MainActivity : AppCompatActivity() {
         val btnHelloWorld: Button = findViewById(R.id.btnHelloWorld)
 
 
-
-
         btnHelloWorld.setOnClickListener {
-            val intent = Intent(this, HelloWorldActivity::class.java)
-            startActivity(intent)
-
-
+            val i = Intent (this,ScrollingActivity::class.java)
+            startActivity(i)
         }
+
+
+//        btnHelloWorld.setOnClickListener {
+//            val intent = Intent(this, HelloWorldFragment::class.java)
+//            startActivity(intent)
+//
+//            val fragmentid = HelloWorldFragment()
+//            val fragment =
+//                supportFragmentManager.findFragmentByTag(HelloWorldFragment::class.java.simpleName)
+//
+//
+//            if (fragment !is HelloWorldFragment) {
+//                supportFragmentManager.beginTransaction()
+//                    .add(
+//                        com.google.android.material.R.id.container,
+//                        fragmentid,
+//                        HelloWorldFragment::class.java.simpleName
+//                    )
+//                    .commit()
+//            }
+//        }
     }
 }
